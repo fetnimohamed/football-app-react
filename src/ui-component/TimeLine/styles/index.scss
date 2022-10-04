@@ -1,0 +1,72 @@
+$react-time-range--gray: #c8cacc;
+$react-time-range--highlight-tap: #000000;
+$react-time-range--rail-bg: #f5f7fa;
+$react-time-range--handle-bg: #ffffff;
+$react-time-range--handle-bg--disabled: #666;
+$react-time-range--track--valid: rgb(0, 223, 7);
+$react-time-range--track--not-valid: rgb(214, 0, 11);
+$react-time-range--tick-label: #77828c;
+$react-time-range--track--disabled: repeating-linear-gradient(
+  -45deg,
+  transparent,
+  transparent 3px,
+  #d0d3d7 4px,
+  #d0d3d7 2px
+);
+
+.react_time_range__time_range_container {
+  padding: 0 1%;
+  height: 21px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.react_time_range__track {
+  position: absolute;
+  transform: translate(0, -18%);
+  height: 33px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease;
+  z-index: 3;
+  &__red {
+    @extend .react_time_range__track;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background: red; // $react-time-range--track--disabled;
+  }
+  &__green {
+    @extend .react_time_range__track;
+    z-index: 1;
+    border-left: 1px solid $react-time-range--track--valid;
+    border-right: 1px solid $react-time-range--track--valid;
+    background: $react-time-range--track--valid; // $react-time-range--track--disabled;
+  }
+}
+
+.react_time_range__tick {
+  &_marker {
+    position: absolute;
+    top: -6px;
+    margin-top: 0px;
+    width: 1px;
+    height: 5px;
+    background-color: $react-time-range--gray;
+    z-index: 2;
+    &__large {
+      @extend .react_time_range__tick_marker;
+      margin-top: 0px;
+      height: 5px;
+    }
+  }
+  &_label {
+    position: absolute;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    z-index: 2;
+    color: #000000;
+    font-family: sans-serif;
+  }
+}

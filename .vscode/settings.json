@@ -1,0 +1,77 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.general.tags": ["TODO", "FIXME", "BREAK", "REVIEW", "FEATURE", "UNVERIFIED", "HINT", "IMPROVEMENT"],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "foreground": "white",
+      "background": "rgba(184, 189, 57, 0.3)",
+      "iconColour": "yellow",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "FIXME": {
+      "icon": "bug",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "BREAK": {
+      "icon": "issue-reopened",
+      "foreground": "white",
+      "background": "orange",
+      "iconColour": "orange",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "REVIEW": {
+      "icon": "eye",
+      "foreground": "rgba(200, 81, 224)",
+      "background": "rgba(220, 245, 239, 0.3)",
+      "iconColour": "rgba(200, 81, 224)",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "FEATURE": {
+      "icon": "beaker",
+      "foreground": "rgba(123, 235, 33)",
+      "background": "rgba(220, 245, 239, 0.3)",
+      "iconColour": "rgba(123, 235, 33)",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "UNVERIFIED": {
+      "icon": "unverified",
+      "foreground": "rgba(249, 255, 71)",
+      "background": "rgba(220, 245, 239, 0.3)",
+      "iconColour": "rgba(249, 255, 71)",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "HINT": {
+      "icon": "broadcast",
+      "foreground": "rgba(171, 173, 255)",
+      "background": "rgba(220, 245, 239, 0.3)",
+      "iconColour": "rgba(171, 173, 255)",
+      "gutterIcon": true,
+      "type": "whole-line"
+    },
+    "IMPROVEMENT": {
+      "icon": "light-bulb",
+      "foreground": "rgba(0, 255, 119)",
+      "background": "rgba(220, 245, 239, 0.3)",
+      "iconColour": "rgba(0, 255, 119)",
+      "gutterIcon": true,
+      "type": "whole-line"
+    }
+  },
+  "cSpell.words": ["respawn"]
+}

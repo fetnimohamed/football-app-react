@@ -1,0 +1,84 @@
+{
+  "machines": [
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Commercial-Factory-Machine-PNG-Free-Download.png",
+      "id": "machine 1",
+      "cycle": "long",
+      "ref": "TRG753",
+      "status": "up",
+      "numero": "753"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-Production-PNG-Image.png",
+      "id": "machine 2",
+      "cycle": "court",
+      "ref": "TUE886",
+      "status": "down",
+      "numero": "886"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Commercial-Factory-Machine-PNG-Free-Download.png",
+      "id": "machine 3",
+      "cycle": "court",
+      "ref": "TUE486",
+      "status": "up",
+      "numero": "486"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-Production-PNG-Image.png",
+      "id": "machine 4",
+      "cycle": "court",
+      "ref": "TUE477",
+      "status": "up",
+      "numero": "477"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-PNG-Image.png",
+      "id": "machine 5",
+      "cycle": "court",
+      "ref": "TUE456",
+      "status": "up",
+      "numero": "456"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-Production-PNG-Image.png",
+      "id": "machine 6",
+      "cycle": "court",
+      "ref": "TUE470",
+      "status": "up",
+      "numero": "470"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-Production-PNG-Image.png",
+      "id": "machine 7",
+      "cycle": "court",
+      "ref": "TUE852",
+      "status": "down",
+      "numero": "852"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-PNG-Image.png",
+      "id": "machine 8",
+      "cycle": "court",
+      "ref": "TUE456",
+      "status": "down",
+      "numero": "456"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-PNG-Image.png",
+      "id": "machine 9",
+      "cycle": "court",
+      "ref": "TUE426",
+      "status": "down",
+      "numero": "426"
+    },
+    {
+      "img": "https://www.pngall.com/wp-content/uploads/8/Factory-Machine-PNG-Image.png",
+      "id": "machine 10",
+      "cycle": "moyen",
+      "ref": "TCE780",
+      "status": "up",
+      "numero": "780"
+    }
+  ]
+}

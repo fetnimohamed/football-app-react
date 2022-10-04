@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-checkbox",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "humao.rest-client",
+    "gruntfuggly.todo-tree",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint"
+  ]
+}

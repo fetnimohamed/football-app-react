@@ -1,0 +1,6 @@
+# Add files here to ignore them from prettier formatting
+
+/build
+/public
+src\views\fichesuiveuse\ficheSuiveuse.js
+src\views\fichesuiveuse\utils.js

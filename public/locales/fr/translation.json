@@ -1,0 +1,132 @@
+{
+    "PROCESS_TYPE" : {
+        "PROCESS_TYPE" : "Type de process",
+        "CONFIG_PROCESS_TYPE" : "Configuration type de process",
+        "ADD_NEW_PROCESS_TYPE" : "Ajouter un nouveau type de process",
+        "ADD_PROCESS_TYPE_TITLE" : "Ajouter titre type de process",
+        "EDIT_PROCESS_TYPE" : "Editer type de process",
+        "PROCESS_TYPE_DETAILS" : "Détails de type de process",
+        "ATTRIBUTES_LISTE" : "Liste des attributs",
+        "TOAST" : {
+            "DUPLICATE_CODE" : "Ce code de processus existe déja !",
+            "SUCCESS_ADD" : "L'ajout du type de process a été effecuté avec succès",
+            "ERROR_ADD" : "Un problème est survenu lors de la création de ce type de process",
+            "REQUIRED_PROCESS_TYPE_CODE" : "Le champs code de processus est obligatoire",
+            "REQUIRED_PROCESS_TYPE_DESIGNATION" : "Le champs désignation est obligatoire",
+            "SUCCESS_UPDATE" : "La modification du type de process a été effectuée avec succès",
+            "ERROR_EDIT ": "Un problème est survenu lors de la modification de ce type de process",
+            "DELETE_SUCESS" : "Le type de processus a été supprimé avec succès",
+            "PROCESS_TYPE_USED" : "Ce type de process est utilisé. Il ne peut pas être supprimé",
+            "DELETE_ERROR" : "Ce type de processus ne peut pas être supprimé"         
+        }
+    },
+    "MACHINE" : {
+      "MACHINE_CYCLE" : "Cycle de machine",
+      "MARGIN" : "Marge d'incohérence",
+      "ADD_NEW_MACHINE_CYCLE" : "Ajouter un nouveau cycle de machine",
+      "EDIT_PROCESS_TYPE" : "Editer cycle de machine",
+      "ADD_MACHINE_CYCLE" : "Ajouter cycle de machine",
+      "MAXIMUM" : "Seuil TRG",
+      "ADD_NEW_MACHINE" : "Ajouter une nouvelle machine", 
+      "EDIT_MACHINE" : "Editer une machine",
+      "CONFIG_MACHINE" : "Configuration machine",
+      "MACHINE_DETAILS" : "Les détails d'une machine"
+     },
+    "GENERAL" : {
+       "CODE" : "Code",
+       "DESIGNATION" : "Désignation",
+       "ATTRIBUTES" : "Attributs",
+       "CANCEL" : "Annuler",
+       "ACTIONS" : "Actions",
+       "SUBMIT"  : "Sauvegarder",
+       "BACK" : "Retour",
+       "DELETE_MESSAGE" : "Etes-vous sûr de vouloir supprimer cet élément ?" ,
+       "YES" : "Oui",
+       "NO" : "Non",
+       "MODEL" : "Modèle",
+       "PDT" : "PdT",
+       "STATUS" : "Statut",
+       "LIST" : "Liste",
+       "LOCAL" : "Local",
+       "CYCLE" : "Cycle",
+       "DETAILS" : "Détails",
+       "ARBORESCENC" : "Arborescence",
+       "ACTIVATED" : "Activé",
+       "LEVEL" : "Niveau",
+       "ADD" : "Ajouter",
+       "MACHINE" : "Machine",
+       "MACHINES" : "Machines",
+       "VALUE" : "Valeur",
+       "ALL" : "Tous",
+       "OBJECTIF" : "Objectif"
+
+    },
+    "TOAST" : 
+    {
+        "VALIDATE_MAX_255" : "Ce champs ne doit pas dépasser 255 charactères",
+        "VALIDATE_MAX_300" : "Ce champs ne doit pas dépasser 300 charactères",
+        "VALIDATE_MAX_4" : "Ce champs ne doit pas dépasser 4 charactères",
+        "VALIDATE_MAX_10" : "Ce champs ne doit pas dépasser 10 charactères",
+        "VALIDATE_MAX_30" : "Ce champs ne doit pas dépasser 30 charactères",
+        "VALIDATE_ALPHANUMERIC" : "Ce champs doit être alphanumérique",
+        "REQUIRED" : "Ce champs est obligatoire !",
+        "REQUIRED_DESIGNATION" : "Le champs désignation est obligatoire !",
+        "DUPLICATE_DESIGNATION" : "Le champs désignation existe déja !",
+    "INVALID_DATA" : "Les données sont invalides !",
+    "VALIDATE_CODE_MAX_10_MIN_3" : "Le code doit être entre 3 et 10 caractères",
+    "VALIDATE_DESIGNATION_MAX_255_MIN_3" : "La désignation doit être entre 5 et 255 caractères",
+    "VALIDATE_CODE_MAX_6_MIN_3" : "Le code doit être entre 3 et 6 caractères"
+
+    },
+    "CONFIG-NON-TRG" : {
+     "LOSS_LEVEL"  : "Niveau de Perte",
+     "LOSS_TYPE" : "Type de Perte"
+    },
+    "MAPPING" : {
+     "CONFIG-MAPPING" : "Configuration Mapping",
+     "TREE-VIEW" : "Arborescence Mapping",
+     "ADD_NEW" : "Ajouter un local dans le niveau",
+     "CHOOSE_PARENT" : "Choisir le parent",
+     "EDIT_SITE" : "Editer local",
+     "MODIF_CODE" : "Modifier code",
+     "MODIF_DESIGNATION" : "Modifier désignation"
+    },
+    "OF" : {
+        "OF_LIST" : "Liste des OF",
+        "OF" : "OF",
+        "ARTICLE_CODE" : "Code article",
+        "DURATION_OF" : "Durée OF",
+        "QUANTITY" : "Quantité",
+        "OF_DETAILS" : "Les détails d'un OF",
+        "MONTH" : "Mois",
+        "DESIGNATION_ARTICLE" : "Désignation article",
+        "INDEX_OF" : "Index OF",
+        "startDate" : "Date de début",
+        "endDate" : "Date de fin"
+    },
+    "MACHINE_CYCLE" :
+    {"CYCLE_CODE" : "Cycle de machine",
+    "MARGIN_PERC" : "la marge d'incohérence en %",
+     "TOAST" : {
+        "REQUIRED_MACHINE_CYCLE_CODE" : "Le champs code de machine cycle est obligatoire",
+        "DUPLICATE_CODE" : "Ce code de cycle de machine existe déja !",
+        "SUCCESS_ADD" : "L'ajout du cycle de machine a été effecuté avec succès",
+        "ERROR_ADD" : "Un problème est survenu lors de la création de ce cycle de machine",
+        "SUCCESS_UPDATE" : "La modification du ce cyle de machine a été effectuée avec succès",
+        "DELETE_SUCCESS" : "Ce cycle de machine a été supprimé avec succès",
+        "ERROR_DELETE" : "Une erreur est survenue lors de la suppression de ce cycle de machine",
+        "CODE_USED" : "Ce cycle de machine ne peut pas être supprimé ! Il est utilisé par une machine",
+        "REQUIRED_MACHINE_MARGIN" : "Le champs marge d'incohérence est obligatoire !",
+        "REQUIRED_PROCESS_TYPE" : "Le champs type de process est obligatoire !"
+     }
+ },
+"MACHINE_MODEL" : {
+    "MACHINE_MODEL" : "Modèle de machine",
+    "ALL_MACHINE_MODELS" : "Tous les modèles de machines",
+    "ADD_MACHINE_MODEL" : "Ajouter un modèle de machine",
+    "TOAST" : {
+        "DELETE_MACHINE_MODEL_ALERTE" : "Etes vous sûr de vouloir supprimer ce modèle de machine ?",
+        "CHOOSE_TYPE_PROCESS" : "Veuillez choisir un type de process"    
+    }
+}
+}
